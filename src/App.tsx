@@ -30,7 +30,7 @@ const App = () => {
 
             <div style={{display:'flex'}}>
                 <UserContainer />
-                <UserContainer2 />
+                {/*<UserContainer2 />*/}
             </div>
         </div>
     );

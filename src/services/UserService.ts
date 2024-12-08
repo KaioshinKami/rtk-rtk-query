@@ -4,7 +4,7 @@ import {build} from "vite";
 
 export const userApi = createApi({
     reducerPath: 'userAPI',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5001' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5002' }),
     tagTypes:['User'],
     endpoints: (build) => ({
         fetchAllUsers: build.query<IUsers, number>({
